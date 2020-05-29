@@ -1,0 +1,223 @@
+/*Test*/
+/**{
+    border : 2px solid black;
+}*/
+
+/*Whole page*/
+html {
+  position: relative;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+
+[class*="col-"] {
+  background-color: black;
+  /*border: 1px solid black;*/
+  line-height: 40px;
+  text-align: center;
+}
+
+
+/*header*/
+header {
+    height: 10%;  
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+ 
+}
+.cannes {
+  max-width: 200px;
+  height: auto;
+  margin-top: 34.55px;
+  margin-bottom: 34.55px;
+}
+
+/*footer*/
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: black;
+}
+
+/*footer problem*/
+#containerFooter {
+    max-width : 100%;
+}
+
+div.container {
+    background-color: black;
+    width: 100%;
+}
+
+/*main section*/
+main.container-fluid {
+ 
+    margin-bottom: 200px;
+}
+
+body > container-fluid {
+  padding: 15px 15px 0;
+  text-align: center;  
+}
+
+.footer > container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+
+/*Table*/
+
+table, td, th {
+    border : 1px solid black;
+}
+
+/*main title*/
+.h1 {
+   /*border : 2px solid black;*/
+   margin : 10px;
+   padding-top : 3%;
+   padding-bottom : 3%;  
+}
+
+.h2 {
+   /*border : 2px solid black;*/
+   margin : 10px;
+   padding-top : 6%;
+   padding-bottom : 3%;
+}
+
+div.h1, div.h2 {
+    text-align: center;
+}
+
+/*formulaire*/
+
+.form-control{
+    display: block;  
+    margin : 0px;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a.btn.btn-link {
+    padding : 0px 20px 20px 20px;
+}
+
+
+/* ------------------------------- AJOUTER POP-UP -------------------------------------------- */
+
+/* Button used to ppen the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  /*position: initial;*/
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  /*position: fixed;*/
+  bottom: 0;
+  right: 15px;
+  border: 5px solid #f1f1f1;
+}
+
+.form-popup2 {
+    display: none;
+    position: fixed;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px; /* Negative half of height. */
+    margin-left: -150px; /* Negative half of width. */
+    border: 5px solid grey;
+}
+
+/* Add styles to the form container */
+.form-container {
+  margin : 0 auto;
+  max-width: 500px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 0;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+/* Espace formulaire */
+
+div#myForm.form-popup {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+/* Couleur hover boutons */
+.lien {
+    color: black;
+    }
+
+.lien:hover {
+    color: white;
+    background-color: #555;
+    text-decoration:none; 
+}

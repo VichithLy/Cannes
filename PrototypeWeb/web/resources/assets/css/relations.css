@@ -1,0 +1,63 @@
+/*Button*/
+input.btn.btn-secondary.btn-lg.btn-block {
+    margin-bottom: 60px;
+}
+
+/*Table*/
+table.table.table-hover.table-fixed{
+    margin-bottom: 80px;
+}
+
+/*main title*/
+.h1 {
+   /*border : 2px solid black;*/
+   margin : 10px;
+   padding-top : 3%;
+   padding-bottom : 3%;  
+}
+
+.h2 {
+   /*border : 2px solid black;*/
+   margin : 10px;
+   padding-top : 6%;
+   padding-bottom : 3%;
+}
+
+
+.titreRelations {
+    text-align: left;
+}
+
+
+a.btn.btn-link {
+    padding : 0px 20px 20px 20px;
+}
+
+/*Main container*/
+
+main.container {
+    margin-bottom: 200px;
+}
+
+
+/*media queries*/
+
+/* @media (min-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}*/
+
+
